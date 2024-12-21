@@ -1,0 +1,56 @@
+.app {
+	height: 100vh;
+	background-color: #282c34;
+}
+
+.container {
+	margin: 0 auto;
+	padding-top: 50px;
+	max-width: 300px;
+	background-color: #282c34;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.title {
+	color: white;
+}
+
+.input {
+	width: 100%;
+	height: 30px;
+	font-size: medium;
+	padding: 5px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	cursor: unset;
+}
+
+.number,
+.buttonOperator {
+	height: 30px;
+	width: 30px;
+	font-size: medium;
+	padding: 5px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: all ease 0.3s;
+}
+
+.number:hover,
+.buttonOperator:hover {
+	opacity: 0.8;
+}
+
+.numbers {
+	width: 100px;
+}
+
+.result {
+	color: blue;
+	font-weight: bold;
+}
